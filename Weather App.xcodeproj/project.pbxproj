@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4FE870662AC393800083ABE3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE870652AC393800083ABE3 /* WeatherManager.swift */; };
+		4FEF2CAB2ACB87B500618BC2 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF2CAA2ACB87B500618BC2 /* WeatherData.swift */; };
 		4FF3880A2AB73C3C00B8D977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF388092AB73C3C00B8D977 /* AppDelegate.swift */; };
 		4FF3880C2AB73C3C00B8D977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3880B2AB73C3C00B8D977 /* SceneDelegate.swift */; };
 		4FF3880E2AB73C3C00B8D977 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3880D2AB73C3C00B8D977 /* WeatherViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		4FE870652AC393800083ABE3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		4FEF2CAA2ACB87B500618BC2 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		4FF388062AB73C3C00B8D977 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF388092AB73C3C00B8D977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF3880B2AB73C3C00B8D977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4FE870652AC393800083ABE3 /* WeatherManager.swift */,
+				4FEF2CAA2ACB87B500618BC2 /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF3880E2AB73C3C00B8D977 /* WeatherViewController.swift in Sources */,
+				4FEF2CAB2ACB87B500618BC2 /* WeatherData.swift in Sources */,
 				4FF3880A2AB73C3C00B8D977 /* AppDelegate.swift in Sources */,
 				4FE870662AC393800083ABE3 /* WeatherManager.swift in Sources */,
 				4FF3880C2AB73C3C00B8D977 /* SceneDelegate.swift in Sources */,
