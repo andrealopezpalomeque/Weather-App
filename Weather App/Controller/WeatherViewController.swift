@@ -45,6 +45,12 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
             return true
         } else {
             textField.placeholder = "Type smth to continue"
+            //alert the user with an alert
+            let alert = UIAlertController(title: "Error", message: "Please type a city name", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            //present the alert
+            self.present(alert, animated: true)
+            
             return false
         }
     }
